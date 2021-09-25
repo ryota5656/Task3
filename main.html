@@ -1,0 +1,45 @@
+    <!DOCTYPE html>
+    <html lang="ja">
+      <head>
+        <meta charset="utf-8"> 
+        <link rel="stylesheet" href="main.css">
+        <title>電卓</title>
+      </head>
+ 
+      <body>
+        <!-- ここに記述していきましょう！ -->
+        <input type="text" id="result"/>
+        <div class="column">
+          <div class="element">
+          <input type="button" value="7" onclick="number(this)"/>
+          <input type="button" value="8" onclick="number(this)"/>
+          <input type="button" value="9" onclick="number(this)"/>
+          <input type="button" value="+" onclick="number(this)"/>
+          </div>
+          <div class="element">
+          <input type="button" value="4" onclick="number(this)"/>
+          <input type="button" value="5" onclick="number(this)"/>
+          <input type="button" value="6" onclick="number(this)"/>
+          <input type="button" value="-" onclick="number(this)"/>
+          </div>
+          <div class="element">
+          <input type="button" value="1" onclick="number(this)"/>
+          <input type="button" value="2" onclick="number(this)"/>
+          <input type="button" value="3" onclick="number(this)"/>
+          <input type="button" value="×" onclick="number(this)"/>
+          </div>
+          <div class="element">
+          <input type="button" value="0" onclick="number(this)"/>
+          <input type="button" value="00" onclick="number(this)"/>
+          <input type="button" value="." onclick="number(this)"/>
+          <input type="button" value="÷" onclick="number(this)"/>
+          </div>
+          <div class="element2">
+          <input type="button" value="AC" onclick="number(this)"/>
+          <input type="button" value="=" onclick="calc()"/>
+          </div>
+        </div>
+        <script src="main.js"></script>
+        <script src="jquery-3.6.0.min.js"></script>
+      </body>
+    </html>
